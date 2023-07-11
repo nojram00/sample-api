@@ -39,10 +39,11 @@ class apiController extends Controller
 
         $data = json_decode($response->getBody());
         $dt = $data->data;
-        foreach($dt as $d){
-            dd($d->name);
-        }
+        // foreach($dt as $d){
+        //     dd($d->name);
+        // }
         // dd($dt[2]->name);
         return $response;
+
     }
 }
