@@ -43,7 +43,7 @@ class apiController extends Controller
         //     dd($d->name);
         // }
         // dd($dt[2]->name);
-        return $response;
+        return view('empdata', ['data' => $dt]);
 
     }
 }
