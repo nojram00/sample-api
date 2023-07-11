@@ -9,7 +9,10 @@
 <body>
     <ul>
         @foreach ($data as $d)
-            <li><h1>{{$d->name}}</h1></li>
+            <li>
+                <h1>Name: <h3>{{$d->name}}</h3></h1>
+                <h1>ID: <h3>{{$d->id}}</h3></h1>
+            </li>
         @endforeach
     </ul>
 
