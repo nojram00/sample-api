@@ -10,10 +10,12 @@
     <form action="/employees" method="GET">
         <input type="hidden" name="pass" value="12345">
         <input type="text" name="personID" placeholder="Emp ID">
-        <input type="datetime-local'" name="startTime" id="">
+        {{-- <input type="date" name="startDate">
+        <input type="time" name="startTime">
+        <input type="date" name="endDate">
+        <input type="time" name="endTime"> --}}
+        <input type="datetime-local" name="startTime" id="">
         <input type="datetime-local" name="endTime" id="">
-        {{-- <input type="datetime" id="time-input" name="startTime" step="3600" min="00:00" max="23:59" pattern="[0-2][0-9]:[0-5][0-9]">
-        <input type="datetime-local" id="time-input" name="endTime" step="3600" min="00:00" max="23:59" pattern="[0-2][0-9]:[0-5][0-9]"> --}}
         <input type="submit" value="Get all">
     </form>
 </body>

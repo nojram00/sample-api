@@ -23,3 +23,4 @@ Route::get('/forms', function () {
 });
 
 Route::get('/employees', [apiController::class, 'GetAllRecords']);
+Route::get('/data', [apiController::class, 'EmployeeData']);
